@@ -1,0 +1,6 @@
+/* fonts.css (or fonts.scss) */
+@font-face {
+    font-family: 'AkzidenzGrotesk';
+    src: url('./fonts/AkzidenzGrotesk-Regular.otf') format('opentype'); 
+  }
+  

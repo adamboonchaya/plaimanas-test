@@ -1,0 +1,65 @@
+* {
+    font-family: 'AkzidenzGrotesk';
+}
+
+.footer-box {
+    background-color: #f7f7f7;
+    padding: 30px;
+    margin-top: 60px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+} 
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    max-width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 99vw;
+}
+
+.input-col {
+    flex: 2;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h5 {
+    margin-bottom: 30px;
+}
+
+.footer-link {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #333;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+  
+.subscribe-button {
+    width: 100%;
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}

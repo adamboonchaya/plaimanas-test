@@ -1,0 +1,36 @@
+ul {
+    padding: 0;
+}
+
+.dropdown-menu {
+    width: auto;
+    position: absolute;
+    top: 50px;
+    left: auto;
+    right: auto;
+    list-style: none;
+    text-align: start;
+    font-size: 16px;
+    font-weight: 0;
+}
+
+.dropdown-menu li {
+    background: #000;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.drop-menu {
+    display: none;
+}
+
+.menu-items {
+    display: grid;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px;
+}
